@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/Black-logo.70ed228c.svg";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const Nav = () => {
       {/* Logo */}
       <img
         className="h-auto w-32"
-        src="./src/images/Black-logo.70ed228c.svg"
+        src={logo}
         alt="logo"
       />
 
